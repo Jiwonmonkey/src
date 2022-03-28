@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class String10 {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-
         int n = sc.nextInt();
 
         int count = 0;
