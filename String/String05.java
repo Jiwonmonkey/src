@@ -8,8 +8,8 @@ public class String05 {
         String s = sc.next();
         int[] arr = new int[26];
 
-        for(int i = 0; i < s.length(); i++) {
-            if('A' <= s.charAt(i) && s.charAt(i) <= 'B') {
+        for(int i = 0 ; i < s.length(); i++) {
+            if('A' <= s.charAt(i) && s.charAt(i) <= 'Z') {
                 arr[s.charAt(i) - 'A']++;
             }
             else {
