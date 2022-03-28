@@ -10,7 +10,7 @@ public class String10 {
         int count = 0;
 
         for(int i = 0; i < n; i++) {
-            if(check() == true) {
+            if(check()) {
                 count++;
             }
         }
