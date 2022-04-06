@@ -1,6 +1,8 @@
 package BasicMath1;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Math1_2869 {
@@ -13,13 +15,10 @@ public class Math1_2869 {
         int b = Integer.parseInt(st.nextToken());
         int v = Integer.parseInt(st.nextToken());
 
-        int move = a - b; // 하루 이동 거리
-        int days = v / move;
-
-        if(v % move != 0) {
-            days++;
+        int days = (v - b) / (a - b);
+        if((v - b) % (a - b) != 0) {
+            days += 1;
         }
-
         System.out.println(days);
     }
 }
