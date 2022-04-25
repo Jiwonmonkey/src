@@ -1,5 +1,4 @@
 package Recursion;
-
 import java.util.Scanner;
 
 public class Re_10870 {
