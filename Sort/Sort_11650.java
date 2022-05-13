@@ -39,7 +39,6 @@ public class Sort_11650 {
                     }
                 }
             }
-            bw.write(x[i] + " " + y[i]);
         }
     }
 

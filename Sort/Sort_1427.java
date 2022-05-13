@@ -1,5 +1,4 @@
 package Sort;
-
 import java.util.Scanner;
 
 public class Sort_1427 {
